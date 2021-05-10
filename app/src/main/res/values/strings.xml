@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Meu primeiro app</string>
+    <string name="minha_tela_de_login">Minha tela de Login</string>
+</resources>
