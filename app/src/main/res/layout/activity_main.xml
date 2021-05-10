@@ -10,6 +10,7 @@
 
     <TextView
         android:id="@+id/introd1"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/minha_tela_de_login"
