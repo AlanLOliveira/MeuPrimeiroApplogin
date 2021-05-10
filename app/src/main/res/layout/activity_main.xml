@@ -19,13 +19,14 @@
         android:layout_gravity="center"
         />
 
+
     <TextView
         android:id="@+id/introd2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="100sp"
-        android:text="Vamos Logar!!!"
+        android:text="Vamos Logar"
         android:textColor="@color/Vermelho"
 
         android:textSize="25sp" />
@@ -45,7 +46,7 @@
         android:layout_marginTop="80sp"
         android:gravity="center"
         android:layout_weight="2"
-        />
+        android:autofillHints="@string/app_name"/>
 
     </LinearLayout>
 
@@ -53,7 +54,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:hint="Login"
         android:textColor="@color/black"
         android:layout_gravity="center"
         android:layout_marginTop="60dp"
